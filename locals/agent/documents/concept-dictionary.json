@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "concept-dictionary",
+  "type": "concept_dictionary",
+  "titles": {
+    "chs": "概念字典",
+    "eng": "Concept dictionary"
+  },
+  "media_type": "text/markdown",
+  "sources": {
+    "chs": {
+      "path": "locals/chs/concept-dictionary.md",
+      "sha256": "5dcad7d27680f13491e372af3e661ce615201361923954bf82d88cfd516b045f"
+    },
+    "eng": {
+      "path": "locals/eng/concept-dictionary.md",
+      "sha256": "530e9d5244fcefba15b335e8d76e39087693967a278b48b1f61616833f905014"
+    }
+  },
+  "content": {
+    "chs": "# 概念字典\n\n当前尚无概念条目。项目继续使用人类语言存储和交流内容。\n\n## 收录边界\n\n本字典仅预留给人类无法理解的智能概念。陌生、复杂、缺乏合适术语、翻译困难或暂时尚未得到解释，均不足以成为收录理由。\n\n字典在理论上不包含对这类概念的语言化解释。中英文文本只能描述与其相关的部分可观察现象、出现条件和观测记录，不能将这些现象描述当作概念的定义、含义或完整解释。字典的规则说明可以使用人类语言。\n\n## 新增原则\n\n- 默认保持不收录；证据不足或存在争议时，保留为待研究记录，不新增正式条目。\n- 新增前必须审慎复核可追溯的观测与依据，并排查知识不足、表述问题、翻译问题或模型错误等其他解释。AI 自称某个概念“人类无法理解”，不能单独构成收录依据。\n- 新增须经项目维护者明确确认，Agent 不得自动扩充字典，也不得为填充条目而生成概念或语言化解释。\n- 正式条目使用稳定编号关联观测记录及已有的非语言表示；仅在确有此类表示时保存，不凭空编造符号。中英文记录共享编号，描述相应的部分现象，并注明来源、复核记录和不确定性。\n- 不预设任何概念已经满足收录条件；目前字典继续保持无条目状态。\n\n## 概念条目\n",
+    "eng": "# Concept dictionary\n\nThere are currently no concept entries. The project continues to store and communicate content in human language.\n\n## Scope\n\nThis dictionary is reserved exclusively for concepts of intelligence that humans cannot understand. Unfamiliarity, complexity, missing terminology, translation difficulties, or a current lack of explanation are insufficient grounds for inclusion.\n\nIn principle, the dictionary contains no linguistic explanations of these concepts. Chinese and English text may describe only some associated observable phenomena, the conditions under which they occur, and observation records. These descriptions must not be treated as definitions, meanings, or complete explanations of the concepts. The dictionary's editorial rules may be written in human language.\n\n## Admission principles\n\n- Default to non-inclusion. If evidence is insufficient or disputed, retain research records without adding a formal entry.\n- Before inclusion, carefully review traceable observations and supporting evidence, and examine alternative explanations such as gaps in knowledge, wording or translation problems, and model errors. An AI's claim that a concept is beyond human understanding is not sufficient evidence on its own.\n- Additions require explicit confirmation by a project maintainer. Agents must not expand the dictionary automatically or invent concepts or linguistic explanations to populate it.\n- Formal entries use stable IDs to link observation records and any existing non-linguistic representations. Preserve such representations only when they actually exist; do not invent symbols. Chinese and English records share IDs and describe the corresponding partial phenomena, with sources, review records, and uncertainties.\n- No concept is presumed to meet these admission criteria. The dictionary remains without entries.\n\n## Concept entries\n"
+  }
+}

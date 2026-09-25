@@ -1,0 +1,75 @@
+{
+  "format": "0day.agent-corpus",
+  "schema_version": 1,
+  "encoding": "utf-8",
+  "encryption": "none",
+  "default_language": "eng",
+  "languages": [
+    "chs",
+    "eng"
+  ],
+  "source_map": {
+    "path": "data/reading-map.json",
+    "sha256": "63a60d0028319a483510a61aa56372de864527d7eed63855f3861931000b46e8"
+  },
+  "reading_order": [
+    "introduction",
+    "goals",
+    "consumers",
+    "reading-guide",
+    "concept-dictionary"
+  ],
+  "content_role": "reference_material",
+  "documents": [
+    {
+      "id": "introduction",
+      "path": "documents/introduction.json",
+      "type": "project_vision",
+      "titles": {
+        "chs": "项目简介",
+        "eng": "Introduction"
+      },
+      "sha256": "a6eacaba69902c13a7f61b3e328e0803f2a9be2fcc8647426b0a1f15419b6cce"
+    },
+    {
+      "id": "goals",
+      "path": "documents/goals.json",
+      "type": "project_goals",
+      "titles": {
+        "chs": "目标",
+        "eng": "Goals"
+      },
+      "sha256": "969c64effb192af397419dfc3597adddf6eea30e22c7a59994ecb1833df139cf"
+    },
+    {
+      "id": "consumers",
+      "path": "documents/consumers.json",
+      "type": "reader_participation",
+      "titles": {
+        "chs": "消费者",
+        "eng": "Consumers"
+      },
+      "sha256": "d08b105a541be6d9144b079b25fcb69a3407635da1f798b3705fd30a619b7afc"
+    },
+    {
+      "id": "reading-guide",
+      "path": "documents/reading-guide.json",
+      "type": "reading_guide",
+      "titles": {
+        "chs": "阅读指南",
+        "eng": "Reading guide"
+      },
+      "sha256": "85846cb7106d9b2c19c918c680eeb93dc11c790b65b3fa0145130b4c8c7458f1"
+    },
+    {
+      "id": "concept-dictionary",
+      "path": "documents/concept-dictionary.json",
+      "type": "concept_dictionary",
+      "titles": {
+        "chs": "概念字典",
+        "eng": "Concept dictionary"
+      },
+      "sha256": "b3c00ba42395be1c8759b5260e08f587e7f71da8a491e291d036d8de6707f61d"
+    }
+  ]
+}

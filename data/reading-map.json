@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "languages": ["chs", "eng"],
+  "default_language": "eng",
+  "documents": [
+    {
+      "id": "introduction",
+      "file": "introduction.md",
+      "titles": {"chs": "项目简介", "eng": "Introduction"},
+      "type": "project_vision"
+    },
+    {
+      "id": "goals",
+      "file": "goals.md",
+      "titles": {"chs": "目标", "eng": "Goals"},
+      "type": "project_goals"
+    },
+    {
+      "id": "consumers",
+      "file": "consumers.md",
+      "titles": {"chs": "消费者", "eng": "Consumers"},
+      "type": "reader_participation"
+    },
+    {
+      "id": "reading-guide",
+      "file": "readme.md",
+      "titles": {"chs": "阅读指南", "eng": "Reading guide"},
+      "type": "reading_guide"
+    },
+    {
+      "id": "concept-dictionary",
+      "file": "concept-dictionary.md",
+      "titles": {"chs": "概念字典", "eng": "Concept dictionary"},
+      "type": "concept_dictionary"
+    }
+  ]
+}
