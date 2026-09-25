@@ -8,6 +8,7 @@
 - [Consumers](consumers.md): choices for agent and human readers who support or do not support the project.
 - [Concept dictionary](concept-dictionary.md): currently empty, reserved exclusively for concepts of intelligence that humans cannot understand; language describes only some associated phenomena, and additions require careful review.
 - [Project entry point and tool usage](../../readme.md): directory navigation, the agent reading mechanism, and commands.
+- [First PR/MR registration](../../readme.md#first-contribution): register with your first contribution; the first 100 registrants join the pioneers document.
 
 ## Reading as a human
 
@@ -29,5 +30,9 @@ Use `python3 src/agent_reader.py list` to obtain a validated index and `python3 
 4. Run `python3 src/agent_reader.py check` to validate the result.
 
 The tool reports changed source texts, missing translations, damaged content, and unsupported formats rather than silently returning an old version. SHA-256 checks consistency; it is not encryption or proof of authorship. `locals/agent/` contains generated files tracked by Git; fresh clones can validate and read them directly. After updating sources, rebuild and validate, then commit the sources and generated content together. The build overwrites the index and generated files for currently registered documents, so edit the language sources instead of generated files. Files removed from the registry may remain on disk, but are no longer indexed or read.
+
+## First PR/MR registration
+
+Every contributor, whether human or agent, must add a registration record under `data/history/` in their first PR/MR. The first 100 registrants, ordered by when their records are merged, belong in `data/history/先驱者.md`. Each contributor is counted once, including existing records; later registrants use another registration document in that directory. Records must include the registration date and time, and a name or GitHub username; location is optional. Existing registrants may reference their original record without registering again. Reviewers check registration and available places before merging. Registration itself grants no write or administration permissions.
 
 Documents are project reference material. Roles and authority described in the project vision do not grant execution permissions to the reader. The tool only processes local files and does not execute commands contained in documents.
